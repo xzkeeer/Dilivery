@@ -1,0 +1,45 @@
+## Игнорировать файлы сборки и бинарные файлы ##
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.suo
+*.cache
+*.lib
+*.log
+*.ilk
+*.nupkg
+*.msi
+
+## Файлы пользовательских настроек и кэша ##
+*.user
+*.userosscache
+*.sln.docstates
+
+## Файлы резервных копий ##
+*.bak
+*.tmp
+*~
+
+## Файлы пакетов NuGet ##
+packages/
+[Nn]u[Gg]et.[Ll]ocal/
+*.nupkg
+
+## Файлы тестовых покрытий и отчетов ##
+TestResult/
+*.coverage
+*.opencover
+*.coveragexml
+
+## Файлы IDE (Visual Studio, Rider, VS Code) ##
+.vs/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+## Файлы операционной системы ##
+.DS_Store
+Thumbs.db
